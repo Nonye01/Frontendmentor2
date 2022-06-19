@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    background-image: url(/frontendmentor2/bg-pattern-top-desktop.svg), url(/frontendmentor2/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    margin: 20px 60px;
+   
+}
+.boldtext {
+    width: 35%;
+    margin: 30px;
+    padding: 30px;
+}
+h1 {
+    font-size: 45px;
+    font-weight: 700px;
+    color: hsl(300, 43%, 22%)
+}
+p {
+    padding: 10px 0;
+    font-size: 15px;
+    font-weight: 500;
+    color:  hsl(303, 10%, 53%)
+}
+div.top {
+    display: flex;
+    align-items: center;
+   gap: 30px;
+}
+.ratings {
+    width: 510px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.one,.two,.three { 
+    background-color:  hsl(300, 24%, 96%);
+    padding: 15px 45px;
+    border-radius: 10px;
+    align-self: flex-start;
+}
+.two {
+ 
+   align-self: center;
+  
+}
+.three {
+ 
+   align-self: flex-end;
+  
+}
+span {
+    color: hsl(300, 43%, 22%);
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 0 20px;
+
+}
+.profile {
+border-radius: 50px;
+height: 45px;
+width: 45px;
+margin-top: 4px;
+}
+.text{
+    line-height: 3px;
+}
+
+
+.testimonials,.heading {
+    display: flex;
+    gap: 20px;
+    height: 60px;
+   
+}
+.testimonials {
+    margin: 120 55;
+}
+.colton, .irene, .anne {
+    background-color: hsl(300, 43%, 22%);
+    padding: 20px;
+    border-radius: 10px;
+    width: 28%;
+    line-height: 20px;
+   
+}
+
+.colton {
+    align-self: flex-end;
+}
+.irene {
+    align-self: center;
+    margin-top: -60px;
+    
+}
+.anne {
+    align-self: flex-start;
+    margin-top: -60px;
+}
+.name {
+    color:  hsl(0, 0%, 100%);
+    padding-top: 15px
+}
+
+.words {
+    color: hsl(0, 0%, 70%) ;
+}
